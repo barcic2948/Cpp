@@ -1,4 +1,3 @@
-#include <iostream>
 #include "menu.h"
 
 int main(int, char**) {
@@ -13,3 +12,4 @@ int main(int, char**) {
     menu.text_line_left("2. Quit");
     menu.break_line();
 }
+    

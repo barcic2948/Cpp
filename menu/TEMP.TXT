@@ -1,0 +1,16 @@
+0 - X X X 123 X
+1 - X X X 111 X
+2 - X X X 110 X
+3 - X X X 213 X
+4 - X X X 769 X
+
+0 - 123
+2
+
+4x3 
+FOR < MIN -> index 2
+
+del MIN
+
+INDEX TAB -> FILE OUT
+

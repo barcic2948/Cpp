@@ -27,18 +27,18 @@ public:
     /**
      * @brief Construct a new Menu object
      * 
-     * @param newLength 
+     * @param length 
      */
-    Menu(unsigned int newLength);
+    Menu(unsigned int length);
 
     /**
      * @brief Construct a new Menu object
      * 
-     * @param newLength 
-     * @param newWall 
-     * @param newBreak 
+     * @param length new length
+     * @param wallChar set wall character
+     * @param breakChar set break character
      */
-    Menu(unsigned int newLength, char newWall, char newBreak);
+    Menu(unsigned int length, char wallChar, char breakChar);
 
     /**
      * @brief Line filled with breakChar
